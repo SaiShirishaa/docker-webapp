@@ -11,6 +11,6 @@ services:
      container_name: app-cont
      build: "./Docker-app"
      ports: 
-       - 1234:8080
+       - 3333:8080
      links:
        - backend
