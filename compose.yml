@@ -5,7 +5,7 @@ services:
      container_name: devopsdb
      build: "./Docker-db"
      ports: 
-       - 3306:3306
+       - 3307:3306
 
   frontend: 
      container_name: app-cont
